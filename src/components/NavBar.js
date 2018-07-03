@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import NavLink from './NavLink';
 
 // data to pass to NavLink components. key is the id of element to 
@@ -17,6 +18,7 @@ class NavBar extends Component {
         const linkList = Object.entries(linkNames).map(([key, value]) => {
             return <NavLink key={key} linkKey={key} linkValue={value} />;
         });
+
         return (
             <div className='navbar'>
                 {linkList}
