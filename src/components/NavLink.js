@@ -4,11 +4,20 @@ import styled from 'styled-components';
 class NavLink extends Component {
     render() {
         return (
-            <a href={`#${this.props.linkKey}`}>
+            <Anchor href={`#${this.props.linkKey}`}>
                 {this.props.linkValue}
-            </a>
+            </Anchor>
         );
     }
 }
 
 export default NavLink;
+
+const Anchor = styled.a`
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    &:hover {
+        background-color: green;
+    }
+`

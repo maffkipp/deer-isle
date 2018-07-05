@@ -20,11 +20,18 @@ class NavBar extends Component {
         });
 
         return (
-            <div className='navbar'>
+            <Nav>
                 {linkList}
-            </div>
+            </Nav>
         );
     }
 }
 
 export default NavBar;
+
+//Style Components
+const Nav = styled.div`
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+`
