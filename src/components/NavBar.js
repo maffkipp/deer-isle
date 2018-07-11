@@ -29,8 +29,9 @@ class NavBar extends Component {
 
 export default NavBar;
 
-//Style Components
+//Styled Components
 const Nav = styled.div`
+    position: fixed;
     width: 100%;
     height: 60px;
     background-color: grey;
