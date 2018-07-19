@@ -17,13 +17,13 @@ export default NavLink;
 const Anchor = styled.a`
     display: inline-block;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: white;
     padding: 20px;
     transition: background-color 200ms;
     &:hover {
-        background-color: #9E9E9E;
+        background-color: #757575;
         transition: background-color 200ms;
     }
 `

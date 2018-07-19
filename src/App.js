@@ -3,6 +3,7 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
+import Gallery from './components/Gallery';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Hero id="home" />
+        <Gallery id="pictures" />
       </div>
     );
   }

@@ -20,9 +20,7 @@ class NavBar extends Component {
         });
 
         return (
-            <Nav>
-                {linkList}
-            </Nav>
+            <Nav>{linkList}</Nav>
         );
     }
 }
